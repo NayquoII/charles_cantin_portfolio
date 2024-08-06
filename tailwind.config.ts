@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        text_color: "rgb(235, 235, 255)",
       },
       fontFamily: {
         sans: ["var(--font-geist-sans)"],
