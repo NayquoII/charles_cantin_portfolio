@@ -12,6 +12,8 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         text_color: "rgb(235, 235, 255)",
+        btn_color: "#1B516D",
+        hover_btn_color: "#2C85B3"
       },
       fontFamily: {
         sans: ["var(--font-geist-sans)"],

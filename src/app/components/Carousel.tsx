@@ -25,7 +25,7 @@ export default function Carousel() {
             {images.map((image, index) => (
                 <div
                     key={index}
-                    className={`absolute top-0 left-0 w-screen h-screen transition-opacity duration-1000 ease-in-out ${
+                    className={`transition-opacity duration-1000 ease-in-out ${
                         index === currentImageIndex ? "opacity-50" : "opacity-0"
                     }`}
                 >
